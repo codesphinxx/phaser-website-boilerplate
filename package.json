@@ -1,0 +1,39 @@
+{
+  "name": "phaser-website-boilerplate",
+  "version": "0.0.1",
+  "description": "A boilerplate for developing phaser website game",
+  "main": "server.js",
+  "scripts": {
+    "test": "start",
+    "build": "gulp build",
+    "deploy": "gulp deploy"
+  },
+  "keywords": [
+    "pwa",
+    "game",
+    "website"
+  ],
+  "author": "Code Sphinx",
+  "private": false,
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-core": "^6.26.3",
+    "babelify": "^10.0.0",
+    "browserify": "^16.2.3",
+    "gulp": "^4.0.0",
+    "gulp-buffer": "0.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-json-editor": "^2.4.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "phaser": "^3.14.0",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}
